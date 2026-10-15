@@ -1,0 +1,8 @@
+name: lab06-lr-api
+
+services:
+  lr-api:
+    image: msyedtaha/lr-predict-api:v1
+    container_name: lr-predict-api
+    ports:
+      - "5000:5000"
